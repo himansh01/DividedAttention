@@ -910,6 +910,7 @@
 				TargetAttributes = {
 					31A627831B7E6B0900CD670C = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 92P3B7KLYW;
 					};
 				};
 			};
@@ -1119,18 +1120,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DividedAttention/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"DividedAttention/libs/kazmath/include\"";
 				INFOPLIST_FILE = DividedAttention/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "05e96b99-04bd-4d1d-a8cd-1c0b524b4172";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1139,17 +1144,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DividedAttention/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"DividedAttention/libs/kazmath/include\"";
 				INFOPLIST_FILE = DividedAttention/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "05e96b99-04bd-4d1d-a8cd-1c0b524b4172";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
