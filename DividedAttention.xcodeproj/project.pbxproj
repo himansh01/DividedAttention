@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313554681B7F200200AE7006 /* white_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 313554671B7F200200AE7006 /* white_bg.png */; };
+		3135546A1B7F2B4500AE7006 /* blue_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 313554691B7F2B4500AE7006 /* blue_circle.png */; };
+		3135546E1B7F314C00AE7006 /* MainMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3135546D1B7F314C00AE7006 /* MainMenuLayer.m */; };
+		313554701B7F4B0700AE7006 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 3135546F1B7F4B0700AE7006 /* box.png */; };
 		31A627881B7E6B0900CD670C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A627871B7E6B0900CD670C /* QuartzCore.framework */; };
 		31A6278A1B7E6B0900CD670C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A627891B7E6B0900CD670C /* OpenGLES.framework */; };
 		31A6278C1B7E6B0900CD670C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A6278B1B7E6B0900CD670C /* OpenAL.framework */; };
@@ -16,7 +20,6 @@
 		31A627941B7E6B0900CD670C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A627931B7E6B0900CD670C /* Foundation.framework */; };
 		31A627961B7E6B0900CD670C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A627951B7E6B0900CD670C /* CoreGraphics.framework */; };
 		31A627981B7E6B0900CD670C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A627971B7E6B0900CD670C /* CoreText.framework */; };
-		31A6279A1B7E6B0900CD670C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A627991B7E6B0900CD670C /* GameKit.framework */; };
 		31A6279E1B7E6B0900CD670C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A6279D1B7E6B0900CD670C /* Default.png */; };
 		31A627A01B7E6B0900CD670C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A6279F1B7E6B0900CD670C /* Default@2x.png */; };
 		31A627A21B7E6B0900CD670C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A627A11B7E6B0900CD670C /* Default-568h@2x.png */; };
@@ -141,9 +144,18 @@
 		31A6292E1B7E6B0C00CD670C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A6292D1B7E6B0C00CD670C /* AppDelegate.m */; };
 		31A629311B7E6B0C00CD670C /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A629301B7E6B0C00CD670C /* HelloWorldLayer.m */; };
 		31A629341B7E6B0C00CD670C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A629331B7E6B0C00CD670C /* IntroLayer.m */; };
+		31A6293C1B7E6FFD00CD670C /* GamePlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A6293B1B7E6FFD00CD670C /* GamePlayLayer.m */; };
+		31A6293E1B7E74D000CD670C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A6293D1B7E74D000CD670C /* GameKit.framework */; };
+		31A629421B7E770200CD670C /* black_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A629401B7E770200CD670C /* black_circle.png */; };
+		31A629431B7E770200CD670C /* red_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A629411B7E770200CD670C /* red_circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		313554671B7F200200AE7006 /* white_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_bg.png; sourceTree = "<group>"; };
+		313554691B7F2B4500AE7006 /* blue_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_circle.png; sourceTree = "<group>"; };
+		3135546C1B7F314C00AE7006 /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
+		3135546D1B7F314C00AE7006 /* MainMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuLayer.m; sourceTree = "<group>"; };
+		3135546F1B7F4B0700AE7006 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
 		31A627841B7E6B0900CD670C /* DividedAttention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DividedAttention.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A627871B7E6B0900CD670C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		31A627891B7E6B0900CD670C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -154,7 +166,6 @@
 		31A627931B7E6B0900CD670C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		31A627951B7E6B0900CD670C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		31A627971B7E6B0900CD670C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		31A627991B7E6B0900CD670C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		31A6279D1B7E6B0900CD670C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		31A6279F1B7E6B0900CD670C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 		31A627A11B7E6B0900CD670C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -425,6 +436,11 @@
 		31A629301B7E6B0C00CD670C /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		31A629321B7E6B0C00CD670C /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		31A629331B7E6B0C00CD670C /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		31A6293A1B7E6FFD00CD670C /* GamePlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayLayer.h; sourceTree = "<group>"; };
+		31A6293B1B7E6FFD00CD670C /* GamePlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayLayer.m; sourceTree = "<group>"; };
+		31A6293D1B7E74D000CD670C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		31A629401B7E770200CD670C /* black_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_circle.png; sourceTree = "<group>"; };
+		31A629411B7E770200CD670C /* red_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,7 +457,7 @@
 				31A6278A1B7E6B0900CD670C /* OpenGLES.framework in Frameworks */,
 				31A627941B7E6B0900CD670C /* Foundation.framework in Frameworks */,
 				31A6278E1B7E6B0900CD670C /* AudioToolbox.framework in Frameworks */,
-				31A6279A1B7E6B0900CD670C /* GameKit.framework in Frameworks */,
+				31A6293E1B7E74D000CD670C /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +484,7 @@
 		31A627861B7E6B0900CD670C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31A6293D1B7E74D000CD670C /* GameKit.framework */,
 				31A627871B7E6B0900CD670C /* QuartzCore.framework */,
 				31A627891B7E6B0900CD670C /* OpenGLES.framework */,
 				31A6278B1B7E6B0900CD670C /* OpenAL.framework */,
@@ -477,7 +494,6 @@
 				31A627931B7E6B0900CD670C /* Foundation.framework */,
 				31A627951B7E6B0900CD670C /* CoreGraphics.framework */,
 				31A627971B7E6B0900CD670C /* CoreText.framework */,
-				31A627991B7E6B0900CD670C /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -489,6 +505,10 @@
 				31A6292D1B7E6B0C00CD670C /* AppDelegate.m */,
 				31A6292F1B7E6B0C00CD670C /* HelloWorldLayer.h */,
 				31A629301B7E6B0C00CD670C /* HelloWorldLayer.m */,
+				3135546C1B7F314C00AE7006 /* MainMenuLayer.h */,
+				3135546D1B7F314C00AE7006 /* MainMenuLayer.m */,
+				31A6293A1B7E6FFD00CD670C /* GamePlayLayer.h */,
+				31A6293B1B7E6FFD00CD670C /* GamePlayLayer.m */,
 				31A629321B7E6B0C00CD670C /* IntroLayer.h */,
 				31A629331B7E6B0C00CD670C /* IntroLayer.m */,
 				31A6279C1B7E6B0900CD670C /* Resources */,
@@ -501,6 +521,7 @@
 		31A6279C1B7E6B0900CD670C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				31A6293F1B7E770200CD670C /* Images */,
 				31A6279D1B7E6B0900CD670C /* Default.png */,
 				31A6279F1B7E6B0900CD670C /* Default@2x.png */,
 				31A627A11B7E6B0900CD670C /* Default-568h@2x.png */,
@@ -879,6 +900,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		31A6293F1B7E770200CD670C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3135546F1B7F4B0700AE7006 /* box.png */,
+				313554691B7F2B4500AE7006 /* blue_circle.png */,
+				313554671B7F200200AE7006 /* white_bg.png */,
+				31A629401B7E770200CD670C /* black_circle.png */,
+				31A629411B7E770200CD670C /* red_circle.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -911,6 +945,11 @@
 					31A627831B7E6B0900CD670C = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = 92P3B7KLYW;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -938,15 +977,20 @@
 			files = (
 				31A627AE1B7E6B0900CD670C /* Icon.png in Resources */,
 				31A6290C1B7E6B0C00CD670C /* ChangeLog in Resources */,
+				313554681B7F200200AE7006 /* white_bg.png in Resources */,
 				31A627A01B7E6B0900CD670C /* Default@2x.png in Resources */,
+				31A629431B7E770200CD670C /* red_circle.png in Resources */,
 				31A627AA1B7E6B0900CD670C /* Icon-Small.png in Resources */,
+				313554701B7F4B0700AE7006 /* box.png in Resources */,
 				31A627A61B7E6B0900CD670C /* Icon-72.png in Resources */,
 				31A6279E1B7E6B0900CD670C /* Default.png in Resources */,
 				31A627A81B7E6B0900CD670C /* Icon-Small-50.png in Resources */,
 				31A627B31B7E6B0900CD670C /* iTunesArtwork in Resources */,
 				31A627AC1B7E6B0900CD670C /* Icon-Small@2x.png in Resources */,
+				3135546A1B7F2B4500AE7006 /* blue_circle.png in Resources */,
 				31A627A41B7E6B0900CD670C /* Default-Landscape~ipad.png in Resources */,
 				31A627A21B7E6B0900CD670C /* Default-568h@2x.png in Resources */,
+				31A629421B7E770200CD670C /* black_circle.png in Resources */,
 				31A627B01B7E6B0900CD670C /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -977,6 +1021,7 @@
 				31A628131B7E6B0A00CD670C /* CCLabelBMFont.m in Sources */,
 				31A628C01B7E6B0B00CD670C /* ccCArray.m in Sources */,
 				31A628EA1B7E6B0B00CD670C /* CDXMacOSXSupport.m in Sources */,
+				3135546E1B7F314C00AE7006 /* MainMenuLayer.m in Sources */,
 				31A628DE1B7E6B0B00CD670C /* ZipUtils.m in Sources */,
 				31A627D01B7E6B0900CD670C /* CCActionManager.m in Sources */,
 				31A628381B7E6B0A00CD670C /* CCParticleSystemQuad.m in Sources */,
@@ -1026,6 +1071,7 @@
 				31A628A91B7E6B0B00CD670C /* CCTouchHandler.m in Sources */,
 				31A628231B7E6B0A00CD670C /* CCMotionStreak.m in Sources */,
 				31A628A21B7E6B0B00CD670C /* CCGLView.m in Sources */,
+				31A6293C1B7E6FFD00CD670C /* GamePlayLayer.m in Sources */,
 				31A628CF1B7E6B0B00CD670C /* CGPointExtension.m in Sources */,
 				31A627D31B7E6B0A00CD670C /* CCActionPageTurn3D.m in Sources */,
 				31A629241B7E6B0C00CD670C /* vec3.c in Sources */,
@@ -1120,8 +1166,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1135,7 +1182,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "05e96b99-04bd-4d1d-a8cd-1c0b524b4172";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1144,8 +1191,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lokesh Arora (6B9JHFTV46)";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DividedAttention/Prefix.pch;
@@ -1158,7 +1206,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "05e96b99-04bd-4d1d-a8cd-1c0b524b4172";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1183,6 +1231,7 @@
 				31A629391B7E6B0C00CD670C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
